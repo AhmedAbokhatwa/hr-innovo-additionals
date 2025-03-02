@@ -3,25 +3,26 @@ app_title = "Hr Innovo Additionals"
 app_publisher = "ahmed abu-khatwa"
 app_description = "Custom and overrides on HRMS"
 app_email = "ahmedabukhatwa1@gmail.com"
-app_license = "mit"
+app_license  = "mit"
 
 # Apps
 # ------------------
+# override method class
 override_doctype_class = {
     "Salary Slip": "hr_innovo_additionals.controllers.calculate_fixed_tax.CustomSalarySlip",
 }
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "hr_innovo_additionals",
-# 		"logo": "/assets/hr_innovo_additionals/logo.png",
-# 		"title": "Hr Innovo Additionals",
-# 		"route": "/hr_innovo_additionals",
-# 		"has_permission": "hr_innovo_additionals.api.permission.has_app_permission"
-# 	}
-# ]
+  # add_to_apps_screen = [
+  # 	{
+  # 		"name": "hr_innovo_additionals",
+  # 		"logo": "/assets/hr_innovo_additionals/logo.png",
+  # 		"title": "Hr Innovo Additionals",
+  # 		"route": "/hr_innovo_additionals",
+  # 		"has_permission": "hr_innovo_additionals.api.permission.has_app_permission"
+  # 	}
+  # ]
 
 # Includes in <head>
 # ------------------
@@ -59,7 +60,7 @@ override_doctype_class = {
 # ----------
 
 # application home page (will override Website Settings)
-# home_page = "login"
+home_page = "login"
 
 # website user home page (by Role)
 # role_home_page = {
