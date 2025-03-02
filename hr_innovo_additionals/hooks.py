@@ -7,7 +7,7 @@ app_license  = "mit"
 
 # Apps
 # ------------------
-# override method class
+# override method class ****
 override_doctype_class = {
     "Salary Slip": "hr_innovo_additionals.controllers.calculate_fixed_tax.CustomSalarySlip",
 }
